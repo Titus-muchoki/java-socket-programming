@@ -29,7 +29,7 @@ class TCPClient {
                 // create an object of Scanner class
                 Scanner input = new Scanner(System.in);
 
-                // ask users to enter operator
+                    // ask users to enter operator
                 System.out.println("Choose an operator: +, -, *, or /");
                 operator = input.next().charAt(0);
 
